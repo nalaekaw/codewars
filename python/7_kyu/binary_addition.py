@@ -14,6 +14,9 @@
 def add_binary(a,b):
     return "{:b}".format(a + b)
 
+# def add_binary(num1:int, num2:int) -> str:
+#     return f"{num1 + num2:b}" # using f strings and formating syntaxis :b means to binary
+
   
   
   
