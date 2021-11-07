@@ -15,3 +15,14 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 1 -->  1
 2 --> 3 + 5 = 8
 ```
+Sample Tests
+
+```
+test_that("Example Tests", {
+  expect_equal(row_sum_odd_numbers(1), 1)
+  expect_equal(row_sum_odd_numbers(2), 8)
+  expect_equal(row_sum_odd_numbers(13), 2197)
+  expect_equal(row_sum_odd_numbers(19), 6859)
+  expect_equal(row_sum_odd_numbers(41), 68921)
+})
+```
